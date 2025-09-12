@@ -114,12 +114,15 @@ header {
 .hero {
    
     .hero-area {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
 
         @media (width >=768) {
-            flex-direction: row;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            text-align: left;
         }
 
 
