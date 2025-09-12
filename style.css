@@ -126,7 +126,7 @@ header {
 
         .hero-content {
             flex: 1;
-
+            border: 1px solid red;
         }
 
         .hero-image {
