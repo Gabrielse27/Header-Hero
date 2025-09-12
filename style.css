@@ -108,9 +108,14 @@ header {
         justify-content: space-between;
         flex-direction: column;
 
-        
+        @media (width >=768) {
+            flex-direction: row;
+        }
+
+
 
         .hero-content {
+            border: 1px solid red;
 
         }
 
