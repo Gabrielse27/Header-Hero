@@ -50,7 +50,12 @@ button, .btn {
     &:hover {
        background-color: var(--color-button-hover-background);
        text-decoration: underline;
-  }
+    }
+    
+     img {
+        height: 100px;
+        width: auto;
+     }
 }
 
 img {
@@ -125,7 +130,7 @@ header {
         }
 
         .hero-image {
-
+        
             border: 1px solid red;
         }
 
