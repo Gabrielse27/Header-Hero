@@ -128,10 +128,11 @@ header {
 
 
         .hero-content {
-            flex: 1;
-            border: 1px solid red;
+            
               
               .hero-title {
+                font-size: 56px;
+                font-weight: 800;
 
 
               }
