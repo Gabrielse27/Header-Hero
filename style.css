@@ -125,13 +125,14 @@ header {
 
 
         .hero-content {
-            border: 1px solid red;
+            flex: 1;
 
         }
 
         .hero-image {
-        
+            flex: 1;
             border: 1px solid red;
+            
         }
 
 
