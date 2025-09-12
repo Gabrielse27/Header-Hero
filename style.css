@@ -12,6 +12,10 @@
     --color-button-text: #ffffff;
     --color-button-background: var(var--primary);
     --color-button-hover-background: #0B0F19;
+
+    --color-button-download-text: #ffffff;
+    --color-button-download-background: #0B0F19;
+    --color-button-download-hover-background: #0B0F19;
 }
 
 html {
@@ -87,6 +91,8 @@ img {
     grid-template-areas:     "icon text"
                              "icon store";
 
+    background-color: var(--color-button-download-background);
+    color: var(--color-button-download-text);
 
 
     .download-app-text {
