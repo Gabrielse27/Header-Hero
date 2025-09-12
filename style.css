@@ -82,14 +82,22 @@ img {
 }
 
 .btn-download {
-    .download-app-text {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:     "icon text"
+                             "icon store";
 
+
+
+    .download-app-text {
+      grid-area: text;
     }
-    .download-app-image {
+    .download-app-icon {
+      grid-are: image;
 
     }
     .download-app-store {
-
+      grid-area: store;
     }
 
 }
