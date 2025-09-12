@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}:root{
+   --primary: #6366F1;
+
+    --color-body-text: #565973;
+    --color-body-bakground: #ffffff;
+    --color-heading-text: #0B0F19;
+
+    --color-button-text: #ffffff;
+    --color-button-background: var(var--primary);
+    --color-button-hover-background: #0B0F19;
+}
+
+html {
+
+
+}
+
+body {
+
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Manrope", sans-serif;
+    color: var(--color-body-text);
+    background-color: var(--color-body-background);
+}
+h1,h2,h3,h4,h5,h6 {
+    color: var(--color-heading-text);
+}
+button, .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-height: 40px;
+
+
+    color: var(--color-button-text);
+    background-color: var(--color-button-background);
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.15s ease-in-out;
+
+
+    &:hover {
+       background-color: var(--color-button-hover-background);
+       text-decoration: underline;
+  }
+}
+
+.container {
+    width: 100%;
+   max-width: 1320px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 1rem;
+   padding-right: 1rem;
+
+}
+
+.btn-signin-text {
+    display: none;
+
+    @media (width >=768px) {
+        display:block;
+    }
+}
+
+.darkmode {
+ display: none;
+
+    @media (width >=768px) {
+        display:block;
+    }
+}
+
+
+header {
+
+    .header-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+        
+        
+
+        .actions {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           gap: 2rem;
+        
+           
+        }
+    }
+}
+
+.hero {
+   
+    .hero-area {
+        display: flex;
+        justify-content: space-between;
+
+        .hero-content {
+
+        }
+
+        .hero-image {
+
+        }
+
+
+    }
+
+}
