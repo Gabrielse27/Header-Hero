@@ -87,8 +87,15 @@ img {
 
 .btn-download {
     text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+
+    
 
     .btn-area {
+        padding: 10px 20px;
+
          display: grid;
     column-gap: 1rem;
     grid-template-columns: auto 1fr;
