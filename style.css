@@ -10,7 +10,7 @@
     --color-heading-text: #0B0F19;
 
     --color-button-text: #ffffff;
-    --color-button-background: var(var--primary);
+    --color-button-background: var(--primary);
     --color-button-hover-background: #0B0F19;
 
     --color-button-download-text: #ffffff;
@@ -117,7 +117,7 @@ img {
       font-size: 1.5em;
       font-weight: 600;
     }
-}
+ }
 
 }
 
@@ -128,7 +128,7 @@ img {
 .darkmode {
  display: none;
 
-    @media (width >=768px) {
+    @media (width >= 768px) {
         display:block;
     }
 }
