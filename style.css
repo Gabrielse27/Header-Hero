@@ -6,7 +6,7 @@
    --primary: #6366F1;
 
     --color-body-text: #565973;
-    --color-body-bakground: #ffffff;
+    --color-body-background: #ffffff;
     --color-heading-text: #0B0F19;
 
     --color-button-text: #ffffff;
@@ -163,7 +163,7 @@ header {
         gap: 3rem;
         text-align: center;
 
-        @media (width >=768) {
+        @media (width >=768px) {
             grid-template-columns: 1fr 1fr;
             gap: 6rem;
             text-align: left;
