@@ -80,7 +80,7 @@ img {
 .btn-signin-text {
     display: none;
 
-    @media (width >=768px) {
+    @media (width >= 768px) {
         display:block;
     }
 }
