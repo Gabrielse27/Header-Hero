@@ -90,6 +90,7 @@ img {
     display: inline-block;
     border-radius: 10px;
     overflow: hidden;
+    text-align: center;
 
     
 
@@ -105,13 +106,14 @@ img {
     background-color: var(--color-button-download-background);
     color: var(--color-button-download-text);
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 
     .download-app-text {
       grid-area: text;
       font-weight: 600;
       font-size: 0.9em;
+      text-align: left;
     }
     .download-app-icon {
       grid-area: icon;
@@ -123,6 +125,7 @@ img {
       grid-area: store;
       font-size: 1.5em;
       font-weight: 600;
+      text-align: left;
     }
  }
 
@@ -163,6 +166,15 @@ header {
 }
 
 .hero {
+
+
+
+
+    padding-bottom: 5rem;
+
+    @media (width >= 768px) {
+        padding-bottom: 0;
+    }
    
     .hero-area {
         display: grid;
@@ -200,7 +212,11 @@ header {
             }
 
               .app-download-buttons {
-                display: flex;
+                margin-top: 2rem;
+                display: grid;
+                grid-template-columns: 210px 210px;
+                align-items: center;
+                justify-content: center;
                 gap: 1rem;
             }
 
@@ -208,8 +224,10 @@ header {
         }
 
         .hero-image {
-            flex: 1;
-            border: 1px solid red;
+            display: none;
+            @media(width >= 768 px) {
+                display: block;
+            }
             
         }
 
