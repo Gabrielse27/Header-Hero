@@ -190,16 +190,19 @@ header {
                 font-weight: 800;
 
 
-              }
+            }
 
               .hero-ingress {
                 font-size: 18px;
                 font-weight: 400;
 
 
-              }
+            }
 
-
+              .app-download-buttons {
+                display: flex;
+                gap: 1rem;
+            }
 
 
         }
