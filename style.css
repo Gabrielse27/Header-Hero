@@ -217,7 +217,7 @@ header {
                 grid-template-columns: 210px 210px;
                 align-items: center;
                 justify-content: center;
-                gap: 1rem;
+                gap: 2rem;
 
                 @media (width >= 768px){
                     justify-content: start;
