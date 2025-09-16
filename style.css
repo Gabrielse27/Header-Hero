@@ -179,6 +179,7 @@ background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(214, 70, 239,
     }
    
     .hero-area {
+        
         display: grid;
         grid-template-columns: 1fr;
         gap: 3rem;
