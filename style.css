@@ -57,7 +57,7 @@ button, .btn {
     }
     
      img {
-        height: 100px;
+        height: 15px;
         width: auto;
      }
 }
@@ -171,7 +171,6 @@ background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(214, 70, 239,
 
 
 
-
     padding-bottom: 5rem;
 
     @media (width >= 768px) {
@@ -180,15 +179,18 @@ background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(214, 70, 239,
    
     .hero-area {
         
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 3rem;
-        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        
+        
+    
 
         @media (width >=768px) {
-            grid-template-columns: 1fr 1fr;
-            gap: 6rem;
-            text-align: left;
+            flex-direction: row;
+            
+            
         }
 
 
@@ -197,21 +199,22 @@ background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(214, 70, 239,
             display: flex;
             flex-direction: column;
             gap: 2rem;
+            
+            
+            
 
 
               
               .hero-title {
                 font-size: 56px;
                 font-weight: 800;
-
-
+                
             }
 
               .hero-ingress {
                 font-size: 18px;
                 font-weight: 400;
-
-
+                
             }
 
               .app-download-buttons {
@@ -234,7 +237,8 @@ background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(214, 70, 239,
             display: none;
             @media (width >= 768px) {
                 display: block;
-            }
+                width: 460px;
+            } 
             
         }
 
