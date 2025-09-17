@@ -90,7 +90,7 @@ img {
     display: inline-block;
     border-radius: 10px;
     overflow: hidden;
-    text-align: center;
+    width: 160px;
 
     
 
@@ -136,7 +136,8 @@ img {
 
 
 .darkmode {
- display: none;
+    padding: 2rem;
+    margin-top: 10px;
 
     @media (width >= 768px) {
         display:block;
@@ -146,11 +147,13 @@ img {
 
 header {
 
+
     .header-area {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 1rem 0;
+    
         
         
 
@@ -168,7 +171,7 @@ header {
 .hero {
 background: #FFFFFF;
 background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(214, 70, 239, 0.05) 42%, rgba(99, 102, 241, 0.1) 83%);
-
+margin-top: 100px;
 
 
     padding-bottom: 5rem;
